@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABC Online Book Store</title>
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f6f8;
+        color: #333333;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: #33334d;
+        color: #ffffff;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    header p {
+        font-size: 16px;
+        color: #d9d9ec;
+    }
+
+    nav {
+        background-color: #45456b;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: #ccccf2;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px 15px;
+    }
+
+    section {
+        background-color: #ffffff;
+        margin-bottom: 25px;
+        padding: 20px;
+        border-radius: 6px;
+        border: 1px solid #dddddd;
+    }
+
+    section h2 {
+        color: #33334d;
+        border-bottom: 2px solid #33334d;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    section p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    ul {
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    ul li {
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    table, th, td {
+        border: 1px solid #cccccc;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    th {
+        background-color: #33334d;
+        color: #ffffff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .offer-box {
+        background-color: #eef0ff;
+        border-left: 5px solid #33334d;
+        padding: 15px 20px;
+        margin-top: 10px;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+
+    footer {
+        background-color: #33334d;
+        color: #ffffff;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+</style>
+</head>
+<body>
+
+    <header id="home">
+        <h1>ABC Online Book Store</h1>
+        <p>Your Online Destination for Books</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#books">Books</a>
+        <a href="#categories">Categories</a>
+        <a href="#offers">Offers</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>Welcome to ABC Online Book Store</h2>
+            <p>
+                Find books from different categories including technology,
+                programming, fiction, business and education.
+            </p>
+        </section>
+
+        <section id="categories">
+            <h2>Book Categories</h2>
+            <ul>
+                <li>Programming</li>
+                <li>Computer Science</li>
+                <li>Business</li>
+                <li>Fiction</li>
+                <li>Competitive Exams</li>
+            </ul>
+        </section>
+
+        <section id="books">
+            <h2>Popular Books</h2>
+            <table>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Author</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Python Programming</td>
+                    <td>John Smith</td>
+                    <td>₹450</td>
+                </tr>
+                <tr>
+                    <td>Web Technology</td>
+                    <td>David Brown</td>
+                    <td>₹500</td>
+                </tr>
+                <tr>
+                    <td>Database Management</td>
+                    <td>Robert Lee</td>
+                    <td>₹550</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="offers">
+            <h2>Special Offer</h2>
+            <div class="offer-box">
+                Get 20% discount on selected books.
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>ABC Online Book Store</p>
+            <p>Jaipur, Rajasthan</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 ABC Online Book Store</p>
+    </footer>
+
+</body>
+</html>
